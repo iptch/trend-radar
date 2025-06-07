@@ -1,0 +1,258 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-07-02T23:15:33Z",
+      "resolved": "github:NixOS/nixpkgs/d55716bb59b91ae9d1ced4b1ccdea7a442ecbfdb?lastModified=1751498133&narHash=sha256-QWJ%2BNQbMU%2BNcU2xiyo7SNox1fAuwksGlQhpzBl76g1I%3D"
+    },
+    "python313Packages.matplotlib@3.10.3": {
+      "last_modified": "2025-06-20T02:24:11Z",
+      "resolved": "github:NixOS/nixpkgs/076e8c6678d8c54204abcb4b1b14c366835a58bb#python313Packages.matplotlib",
+      "source": "devbox-search",
+      "version": "3.10.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gsnb8yhfa69j82qimvh8ic3a41ilx8hg-python3.13-matplotlib-3.10.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/3n1axsfviicl6wk734bwpmi6bqrpc1sg-python3.13-matplotlib-3.10.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/gsnb8yhfa69j82qimvh8ic3a41ilx8hg-python3.13-matplotlib-3.10.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/i9ciryg5sgrxijlk32rvkbqg2yk8amq2-python3.13-matplotlib-3.10.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/1z1vvc6ksqmf9k905a34dq2wqy86p8kx-python3.13-matplotlib-3.10.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/i9ciryg5sgrxijlk32rvkbqg2yk8amq2-python3.13-matplotlib-3.10.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7f5gx5mxdh9r18xigjph9n9xdgly5x74-python3.13-matplotlib-3.10.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/s0xpdnw00fz1n2q6dz4hdj54bygcnmk8-python3.13-matplotlib-3.10.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/7f5gx5mxdh9r18xigjph9n9xdgly5x74-python3.13-matplotlib-3.10.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b2jdi81wpmxmq91lhpnqv4sav4ck2d0f-python3.13-matplotlib-3.10.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/r54xhwspmmyfkl24g6ypc5vw818vjy1m-python3.13-matplotlib-3.10.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/b2jdi81wpmxmq91lhpnqv4sav4ck2d0f-python3.13-matplotlib-3.10.3"
+        }
+      }
+    },
+    "python313Packages.pandas@2.2.3": {
+      "last_modified": "2025-06-20T02:24:11Z",
+      "resolved": "github:NixOS/nixpkgs/076e8c6678d8c54204abcb4b1b14c366835a58bb#python313Packages.pandas",
+      "source": "devbox-search",
+      "version": "2.2.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wpzkn0dg2bbmdm8rk7d4jclp9zg9pmpy-python3.13-pandas-2.2.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/awjww3cj4fmhw8x3hb4lh72g679ca7kf-python3.13-pandas-2.2.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/wpzkn0dg2bbmdm8rk7d4jclp9zg9pmpy-python3.13-pandas-2.2.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bvzib7pivsi8a4zdz88q3xbk5apry6hz-python3.13-pandas-2.2.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/xblxdx9zaci17k4r8m21b27ngrmbckcb-python3.13-pandas-2.2.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/bvzib7pivsi8a4zdz88q3xbk5apry6hz-python3.13-pandas-2.2.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rjp1iifl88fzrmq5kwgl4flp6zygr4za-python3.13-pandas-2.2.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/i4lm0gmak9cnzb1b6wapvj40lnkxkdp5-python3.13-pandas-2.2.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/rjp1iifl88fzrmq5kwgl4flp6zygr4za-python3.13-pandas-2.2.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/59bmf68pd17hp8cphcrpijv7cjs3frwh-python3.13-pandas-2.2.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/14ylgsvpq79r3w304m6kw3v66fkig9h6-python3.13-pandas-2.2.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/59bmf68pd17hp8cphcrpijv7cjs3frwh-python3.13-pandas-2.2.3"
+        }
+      }
+    },
+    "python313Packages.wordcloud@1.9.4": {
+      "last_modified": "2025-06-20T02:24:11Z",
+      "resolved": "github:NixOS/nixpkgs/076e8c6678d8c54204abcb4b1b14c366835a58bb#python313Packages.wordcloud",
+      "source": "devbox-search",
+      "version": "1.9.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/45jkfp8qarpjrllhmhqw3jr5jfjkcj0a-python3.13-wordcloud-1.9.4",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/2xrsyzyn9j2163mqj41rr873ja050727-python3.13-wordcloud-1.9.4-dist"
+            }
+          ],
+          "store_path": "/nix/store/45jkfp8qarpjrllhmhqw3jr5jfjkcj0a-python3.13-wordcloud-1.9.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/74bm4mjixq49l8jl27bx1v6ca471489j-python3.13-wordcloud-1.9.4",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/issvwn4icngdp22h1r55l6ydprg9a6xa-python3.13-wordcloud-1.9.4-dist"
+            }
+          ],
+          "store_path": "/nix/store/74bm4mjixq49l8jl27bx1v6ca471489j-python3.13-wordcloud-1.9.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jl7kjni6yqs8xg0w8lnh9zbqv34ysf1i-python3.13-wordcloud-1.9.4",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/4gsry1lw6i7pzkm1ns4ghxkjp90w3s09-python3.13-wordcloud-1.9.4-dist"
+            }
+          ],
+          "store_path": "/nix/store/jl7kjni6yqs8xg0w8lnh9zbqv34ysf1i-python3.13-wordcloud-1.9.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/y95g7hh71h0ghgc7c0jg3rdxgvmlm13w-python3.13-wordcloud-1.9.4",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/is9fdgi7lb448fjf9kh788nwdkpd104p-python3.13-wordcloud-1.9.4-dist"
+            }
+          ],
+          "store_path": "/nix/store/y95g7hh71h0ghgc7c0jg3rdxgvmlm13w-python3.13-wordcloud-1.9.4"
+        }
+      }
+    },
+    "python@3.13.3": {
+      "last_modified": "2025-05-16T20:19:48Z",
+      "plugin_version": "0.0.4",
+      "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3#python313",
+      "source": "devbox-search",
+      "version": "3.13.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1a8xg8l3m67hxinxzzcsak9736qm9vsf-python3-3.13.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1a8xg8l3m67hxinxzzcsak9736qm9vsf-python3-3.13.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yy0xvc2rydhrs0h1v8d7r3sql347xzz5-python3-3.13.3",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/42bxfqfrh8cwspl7szr0cw8739xv8qlq-python3-3.13.3-debug"
+            }
+          ],
+          "store_path": "/nix/store/yy0xvc2rydhrs0h1v8d7r3sql347xzz5-python3-3.13.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gbrigjhghz9v2p0zf9b2fnvs0g0yx7q4-python3-3.13.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gbrigjhghz9v2p0zf9b2fnvs0g0yx7q4-python3-3.13.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2mab9iiwhcqwk75qwvp3zv0bvbiaq6cs-python3-3.13.3",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/9z6k8ijl2md0y2n95yprbjj4vxbfsi15-python3-3.13.3-debug"
+            }
+          ],
+          "store_path": "/nix/store/2mab9iiwhcqwk75qwvp3zv0bvbiaq6cs-python3-3.13.3"
+        }
+      }
+    }
+  }
+}
