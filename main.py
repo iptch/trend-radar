@@ -15,7 +15,7 @@ wordcloud = WordCloud(width=800, height=400, background_color="white").generate_
     frequencies,
 )
 
-Path("test.svg").write_text(wordcloud.to_svg())
+Path("trends-wordcloud.svg").write_text(wordcloud.to_svg())
 
 # plt.figure(figsize=(10, 5))
 # plt.imshow(wordcloud, interpolation="bilinear")

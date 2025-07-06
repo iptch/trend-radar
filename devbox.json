@@ -2,18 +2,21 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
   "packages": [
     "python@3.13.3",
-    "python313Packages.wordcloud@1.9.4",
-    "python313Packages.pandas@2.2.3",
-    "python313Packages.matplotlib@3.10.3"
+    "uv@0.7.17",
   ],
   "shell": {
     "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
+      "uv add --frozen -r requirements.txt"
     ],
     "scripts": {
-      "test": [
-        "echo \"Error: no test specified\" && exit 1"
+      "generate": [
+        "uv add --frozen -r requirements.txt",
+        "uv run --frozen python main.py"
+      ],
+      "lock": [
+        "uv lock",
+        "uv export --format=requirements.txt -o requirements.txt"
       ]
-    }
-  }
+    },
+  },
 }
