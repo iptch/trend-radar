@@ -6,11 +6,11 @@
   ],
   "shell": {
     "init_hook": [
-      "uv add --frozen -r requirements.txt"
+      "uv sync"
     ],
     "scripts": {
       "generate": [
-        "uv add --frozen -r requirements.txt",
+        "uv sync",
         "uv run --frozen python main.py"
       ],
       "lock": [

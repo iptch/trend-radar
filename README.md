@@ -10,7 +10,8 @@
 ### A small script to generate wordclouds with tooltips, meant to be used as a way to easily display our trends and some additional information about them.
 
 [Usage](#usage) |
-[Adding Trends](#adding-trends)
+[Adding Trends](#adding-trends) |
+[Roadmap](#roadmap)
 
 <hr />
 </div>
@@ -45,3 +46,9 @@ python main.py
 ## Adding Trends
 
 <!-- TODO(@f4z3r): add info -->
+
+## Roadmap
+
+- [ ] complete the implementation for basic descriptions on tooltips
+- [ ] add all trends
+- [ ] add support for colours based on focus area
