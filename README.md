@@ -45,10 +45,33 @@ python main.py
 
 ## Adding Trends
 
-<!-- TODO(@f4z3r): add info -->
+Trends can be added by modifying the [`trends.csv`](./trends.csv) file. Each line represents a
+trend, which the following fields in order:
+
+1. The name of the trend
+2. Its weight. We use weights between 1 and 100 inclusive.
+3. The focus area of the trend. Can be one of:
+   - `cloud`
+   - `ai`
+   - `security`
+   - `integration`
+   - `dx`
+4. A short description of the trend.
+
+Any text it ideally put into quotes. This avoids issues where the text contains a comma and is thus
+interpreted in a different manner by the CSV parser.
+
+Once you have added a trend, you can generate SVGs. Note that the order of the trends in the CSV
+have no effect.
 
 ## Roadmap
 
-- [ ] complete the implementation for basic descriptions on tooltips
-- [ ] add all trends
-- [ ] add support for colours based on focus area
+### Adding Colour Based on Focus
+
+We define a focus in the CSV, which could define the colour of the word as it appears in the
+wordcloud. This would help easily identify to what focus area a trend relates to, and which focus
+areas are most represented on our radar.
+
+### Improving IPT Corporate Design
+
+We could use IPT corporate colours for the wordcloud.
