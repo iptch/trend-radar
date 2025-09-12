@@ -7,7 +7,7 @@
 ![Devbox](https://img.shields.io/badge/built_with_devbox-true?style=flat&logo=devbox&link=https%3A%2F%2Fwww.jetify.com%2Fdocs%2Fdevbox%2F)
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
 
-### A small script to generate wordclouds with tooltips, meant to be used as a way to easily display our trends and some additional information about them.
+### A small script to generate wordclouds, meant to be used as a way to easily display our trends and some additional information about them.
 
 [Usage](#usage) |
 [Adding Trends](#adding-trends) |
@@ -24,7 +24,7 @@ the trend radar homepage.
 ## Usage
 
 The easiest way to run this script is to use [Devbox](https://www.jetify.com/docs/devbox/). You can
-then build the wordcloud the command below, which will generate a `trends-wordcloud.svg` file.
+then build the wordcloud the command below, which will generate a `trend-radar.png` file.
 
 ```sh
 devbox run generate
@@ -63,15 +63,3 @@ interpreted in a different manner by the CSV parser.
 
 Once you have added a trend, you can generate SVGs. Note that the order of the trends in the CSV
 have no effect.
-
-## Roadmap
-
-### Adding Colour Based on Focus
-
-We define a focus in the CSV, which could define the colour of the word as it appears in the
-wordcloud. This would help easily identify to what focus area a trend relates to, and which focus
-areas are most represented on our radar.
-
-### Improving IPT Corporate Design
-
-We could use IPT corporate colours for the wordcloud.
