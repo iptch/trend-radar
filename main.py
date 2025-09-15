@@ -6,7 +6,7 @@ import matplotlib.patches as mpatches
 WIDTH = 1600
 HEIGHT = 800
 
-FILENAME = "trend-radar.svg"
+FILENAME = "trend-radar.png"
 
 CATEGORY_COLOR = {
     "cloud": (0, 158, 179),  # Karibik T01
