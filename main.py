@@ -11,8 +11,8 @@ FILENAME = "trend-radar.svg"
 CATEGORY_COLOR = {
     "cloud": (0, 158, 179),  # Karibik T01
     "security": (84, 56, 166),  # Traube T01
-    "ai": (228, 50, 67),  # Rouge T01
-    "dx": (255, 110, 43),  # Orange T01
+    "ai&data": (228, 50, 67),  # Rouge T01
+    "custom applications": (255, 110, 43),  # Orange T01
     "integration": (255, 187, 0),  # Sonne T01
 }
 
