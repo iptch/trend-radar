@@ -44,6 +44,10 @@ def main():
         width=WIDTH,
         height=HEIGHT,
         background_color="white",
+        scale=2,
+        margin=6,
+        relative_scaling=0.3,
+        random_state=42,
         color_func=lambda word, *_, **_kw: color_map[word],
     ).generate_from_frequencies(frequencies)
     plt.figure(figsize=(30, 15))
