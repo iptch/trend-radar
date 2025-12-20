@@ -7,7 +7,7 @@
 ![Devbox](https://img.shields.io/badge/built_with_devbox-true?style=flat&logo=devbox&link=https%3A%2F%2Fwww.jetify.com%2Fdocs%2Fdevbox%2F)
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
 
-### A small script to generate wordclouds, meant to be used as a way to easily display our trends and some additional information about them.
+### A small script to generate wordclouds, meant to be used as a way to easily display our trends and their importance.
 
 [Usage](#usage) |
 [Adding Trends](#adding-trends) |
@@ -24,7 +24,8 @@ the trend radar homepage.
 ## Usage
 
 The easiest way to run this script is to use [Devbox](https://www.jetify.com/docs/devbox/). You can
-then build the wordcloud the command below, which will generate a `trend-radar.png` file.
+then build the wordcloud the command below, which will generate a `trend-radar.png` file within the
+`assets` directory.
 
 ```sh
 devbox run generate
@@ -56,10 +57,13 @@ trend, which the following fields in order:
    - `security`
    - `integration`
    - `dx`
-4. A short description of the trend.
 
-Any text it ideally put into quotes. This avoids issues where the text contains a comma and is thus
+Any text is ideally put into quotes. This avoids issues where the text contains a comma and is thus
 interpreted in a different manner by the CSV parser.
 
-Once you have added a trend, you can generate SVGs. Note that the order of the trends in the CSV
-have no effect.
+Once you have added a trend, you can generate images. Note that the order of the trends in the CSV
+has no effect.
+
+There is no need to generate the images yourself. A [GitHub
+workflow](./.github/workflows/generate-img.yml) will generate a new image when
+changes are done to the repository.
