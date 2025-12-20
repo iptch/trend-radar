@@ -53,10 +53,10 @@ trend, which the following fields in order:
 2. Its weight. We use weights between 1 and 100 inclusive.
 3. The focus area of the trend. Can be one of:
    - `cloud`
-   - `ai`
+   - `ai&data`
    - `security`
    - `integration`
-   - `dx`
+   - `custom applications`
 
 Any text is ideally put into quotes. This avoids issues where the text contains a comma and is thus
 interpreted in a different manner by the CSV parser.
