@@ -8,6 +8,7 @@
 ![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)
 ![GitHub contributors](https://img.shields.io/github/contributors-anon/iptch/trend-radar)
 ![GitHub last commit](https://img.shields.io/github/last-commit/iptch/trend-radar)
+[![Generate Image](https://github.com/iptch/trend-radar/actions/workflows/generate-img.yml/badge.svg)](https://github.com/iptch/trend-radar/actions/workflows/generate-img.yml)
 
 
 ### A small script to generate wordclouds, meant to be used as a way to easily display our trends and their importance.
