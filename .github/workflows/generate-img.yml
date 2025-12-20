@@ -1,0 +1,34 @@
+name: Generate Image
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "**"
+jobs:
+  changelog:
+    name: Generate trend radar image
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
+      - name: Install devbox
+        uses: jetify-com/devbox-install-action@v0.12.0
+        with:
+          enable-cache: 'true'
+          refresh-cli: 'false'
+          devbox-version: 0.16.0
+          disable-nix-access-token: 'false'
+      - name: Generate image
+        run: devbox run generate
+      - name: Commit
+        run: |
+          git checkout main
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          set +e
+          git add .
+          git commit -m "chore(github-actions): update image"
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git main
