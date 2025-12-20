@@ -5,13 +5,15 @@
 # Trend Radar
 
 ![Devbox](https://img.shields.io/badge/built_with_devbox-true?style=flat&logo=devbox&link=https%3A%2F%2Fwww.jetify.com%2Fdocs%2Fdevbox%2F)
-![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)
+![GitHub contributors](https://img.shields.io/github/contributors-anon/iptch/trend-radar)
+![GitHub last commit](https://img.shields.io/github/last-commit/iptch/trend-radar)
+
 
 ### A small script to generate wordclouds, meant to be used as a way to easily display our trends and their importance.
 
 [Usage](#usage) |
-[Adding Trends](#adding-trends) |
-[Roadmap](#roadmap)
+[Adding Trends](#adding-trends)
 
 <hr />
 </div>
