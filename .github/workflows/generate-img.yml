@@ -1,6 +1,12 @@
 name: Generate Image
 on:
   push:
+    paths:
+      - 'main.py'
+      - 'devbox.*'
+      - 'trends.csv'
+      - 'pyproject.toml'
+      - 'uv.lock'
     branches:
       - main
     tags:
