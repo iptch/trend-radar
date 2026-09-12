@@ -1,22 +1,18 @@
 trend,weight,focus
 Cloud Sovereignty,90,cloud
-Serverless,60,cloud
-Agentic AI,100,ai&data
-LLMOps,50,ai&data
-Platform Engineering,70,cloud
-Security Automation,60,security
-AIOps,50,cloud
-Domain Specific Language Model,60,ai&data
-WebAssembly,60,custom applications
+Agentic & Applied AI,100,ai&data
+"AI Engineering, Governance & Operations",80,ai&data
+Platform Engineering,80,cloud
+Security Automation & Software Supply Chain Security,80,security
 Product Model,50,custom applications
 Edge Computing,30,cloud
-Observability,60,custom applications
-Policy as Code / Continuous Compliance,50,integration
-Sovereign AI,80,ai&data
-DevEx,70,custom applications
-Specification Driven Development,70,custom applications
-WebMCP,60,ai&data
+Observability,70,custom applications
+Policy as Code / Continuous Compliance,60,integration
+DevEx,50,custom applications
+AI-native Software Engineering,80,custom applications
+Agent Interoperability Protocols,40,ai&data
 Post-Quantum Cryptography,70,security
 dapr,30,custom applications
-Agentic Development Factory,80,custom applications
 E-ID,30,custom applications
+FinOps / AI Cost Engineering,75,ai&data
+"Open, Sovereign & AI-ready Data Platforms",80,ai&data
