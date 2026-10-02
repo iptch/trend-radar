@@ -1,7 +1,7 @@
 trend,weight,focus
 Cloud Sovereignty,90,cloud
 Agentic & Applied AI,100,ai&data
-"AI Engineering, Governance & Operations",80,ai&data
+Open & Sovereign AI Platforms,80,ai&data
 Platform Engineering,80,cloud
 Security Automation & Software Supply Chain Security,80,security
 Product Model,50,custom applications
@@ -12,7 +12,6 @@ DevEx,50,custom applications
 AI-native Software Engineering,80,custom applications
 Agent Interoperability Protocols,40,ai&data
 Post-Quantum Cryptography,70,security
-dapr,30,custom applications
 E-ID,30,custom applications
 FinOps / AI Cost Engineering,75,ai&data
 "Open, Sovereign & AI-ready Data Platforms",80,ai&data
